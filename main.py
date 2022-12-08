@@ -44,7 +44,6 @@ for boot in range(Nbootstraps):
         evals.append(r)
         evals.append(threshold)
        
-       # PQ, PC, F1StarLSH, precision, recall, F1_cluster, fraction_comparisonLSH, fraction_cluster = evaluate_cluster_LSH(LSH_pairs, cluster_pairs, train_data)
        
         result.loc[len(result.index)]=evals
         print(f"bootstrap: {boot}, and number: {i} out of 13")
