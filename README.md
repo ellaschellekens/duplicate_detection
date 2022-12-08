@@ -10,6 +10,7 @@ Method that uses LSH and hierarchical clustering for product duplicate detection
 
 ## Software explanation
 
-main.py: program to run the training of the methods.
-functions.py: file that contains all functions needed for LSH and Clustering
-test.py
+- main.py: program to run the training of the methods.
+- functions.py: file that contains all functions needed for LSH and Clustering.
+- testdata.py: program to run the test evaluation of the method.
+- results.py: file to create plots of the test results. Needs as input the excel files that are saved after running testdata.py.
