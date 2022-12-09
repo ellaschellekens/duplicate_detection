@@ -4,7 +4,7 @@ Method that uses LSH and hierarchical clustering for product duplicate detection
 ## Data
 
 - The data set is available from:  https://personal.eur.nl/frasincar/datasets/TVs-allmerged.zip 
-- The dataset that contains information about TVs from four different websites, namely, Amazon, Newegg, Best-Buy and The Nerds[4]. 
+- The dataset that contains information about TVs from four different websites, namely, Amazon, Newegg, Best-Buy and The Nerds. 
 - The data set consists of 1624 products of which 1262 products are unique. 
 - For each product a list of features is available, however, these features differ across products and web shops
 
